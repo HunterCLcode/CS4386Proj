@@ -1,0 +1,54 @@
+
+import java_cup.runtime.*;
+
+terminal CLASS;         //2
+terminal OPENBRACE;     //3
+terminal CLOSEBRACE;    //4
+terminal SEMI;          //5
+terminal OPENBRACKET;   //6
+terminal CLOSEBRACKET;  //7
+terminal OPENPAREN;     //8
+terminal CLOSEPAREN;    //9
+terminal FINAL;         //10
+terminal VOID;          //11
+terminal INT;           //12
+terminal CHAR;          //13
+terminal BOOL;          //14
+terminal FLOAT;         //15
+terminal COMMA;         //16
+terminal IF;            //17
+terminal ELSE;          //18
+terminal WHILE;         //19
+terminal READ;          //20
+terminal PRINT;         //21
+terminal PRINTLINE;     //22
+terminal RETURN;        //23
+terminal PLUSPLUS;      //24
+terminal MINUSMINUS;    //25
+terminal TRUE;          //26
+terminal FALSE;         //27
+terminal SQUIGGLY;      //28
+terminal PLUS;          //29
+terminal MINUS;         //30
+terminal MULTIPLY;      //31
+terminal DIVIDE;        //32
+terminal EQUALEQUAL;    //33
+terminal GREATEREQUAL;  //34
+terminal LESSEQUAL;     //35
+terminal NOTEQUAL;      //36
+terminal GREATER;       //37
+terminal LESS;          //38
+terminal OR;            //39
+terminal AND;           //40
+terminal EQUALS;        //41
+terminal QUESTION;      //42
+terminal COLON;         //43
+
+terminal String ID;     //44
+terminal int INTLIT;    //45
+terminal String CHARLIT;//46
+terminal String STRLIT; //47
+terminal Float FLOATLIT;//48
+
+non terminal dummy;
+dummy ::= ;
